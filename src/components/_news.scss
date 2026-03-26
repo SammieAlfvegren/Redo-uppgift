@@ -1,7 +1,10 @@
-
 @use "../abstracts/variables" as *;
 
 .news {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+
   grid-column: span 3;
   border: 1px solid #ddd;
   border-radius: 6px;
@@ -29,5 +32,58 @@
         }
       }
     }
+  }
+}
+
+.news-item {
+  flex: 1 1 300px;
+}
+
+
+.news > *,
+.news-item,
+.news article,
+.news .card {
+  min-width: 0;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 15px;
+  background: #fff;
+}
+
+.news h2,
+.news-item h2,
+.news article h2,
+.news .card h2 {
+  color: $blue;
+  margin-bottom: 10px;
+}
+
+.news ul,
+.news-item ul,
+.news article ul,
+.news .card ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.news li,
+.news-item li,
+.news article li,
+.news .card li {
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+}
+
+.news a,
+.news-item a,
+.news article a,
+.news .card a {
+  color: $blue;
+  font-weight: 600;
+
+  &:hover {
+    text-decoration: underline;
   }
 }

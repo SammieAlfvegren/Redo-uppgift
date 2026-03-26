@@ -1,7 +1,13 @@
-
 $blue: #0b4fa3;
 $light-blue: #e8f1fb;
 $dark-blue: #083b7a;
 $text-dark: #222;
 $text-light: #555;
 $max-width: 1200px;
+
+$shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+
+// Responsive breakpoints
+$mobile: 768px;
+$tablet: 1024px;
+$desktop: 1200px;

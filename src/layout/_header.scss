@@ -1,9 +1,14 @@
 @use "../abstracts/variables" as *;
 
 header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
   text-align: center;
   padding: 20px 10px;
-  background: $light-blue;
+  background: #ffff;
   border-bottom: 2px solid $blue;
 
   h1 {
@@ -16,3 +21,5 @@ header {
     color: $text-light;
   }
 }
+
+

@@ -1,17 +1,19 @@
-
 @use "../abstracts/variables" as *;
 
 .welcome {
   width: 100%;
-  background: #e8f1fb;
+  background: $light-blue;
+  box-shadow: $shadow;
+  border-radius: 8px;
   padding: 40px 0;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
-  gap: 40px;
+  gap: 20px;
 
   img {
-    width: 450px;
+    width: 500px;
+    margin-left: 23px;
     border-radius: 8px;
     object-fit: cover;
   }

@@ -4,8 +4,20 @@
   max-width: $max-width;
   margin: 0 auto;
   padding: 10px;
-  height: calc(100vh - 180px);
+  min-height: calc(100vh - 180px);
   display: grid;
-  grid-template-rows: 1fr 2fr;
+  grid-template-rows: auto 1fr;
   gap: 10px;
+  flex: 1;
 }
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  gap: 20px;
+}
+
+.layout > * {
+  min-width: 0;
+}
+

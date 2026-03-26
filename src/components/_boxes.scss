@@ -9,11 +9,20 @@
   gap: 20px;
 }
 
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.boxes > * {
+  min-width: 0;
+}
 
 .box {
-  background: #fff;
-  border: 1px solid #ddd;
+  background: $light-blue;
   border-radius: 6px;
+  box-shadow: $shadow;
   padding: 20px;
 
   h3 {
