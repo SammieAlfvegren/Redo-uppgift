@@ -1,0 +1,40 @@
+@use "../abstracts/variables" as *;
+
+.grid-sections {
+  max-width: $max-width;
+  margin: 40px auto;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+
+.box {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 20px;
+
+  h3 {
+    color: $blue;
+    margin-bottom: 8px;
+  }
+
+  p {
+    color: $text-light;
+  }
+
+  a {
+    display: inline-block;
+    margin-top: 10px;
+    background: $blue;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 4px;
+
+    &:hover {
+      background: $dark-blue;
+    }
+  }
+}

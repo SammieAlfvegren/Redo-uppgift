@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #fff;
+  color: #222;
+}
+
+header {
+  text-align: center;
+  padding: 20px 10px;
+  background: #e8f1fb;
+  border-bottom: 2px solid #0b4fa3;
+}
+header h1 {
+  font-size: 1.8rem;
+  color: #0b4fa3;
+}
+header p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+nav {
+  background: #0b4fa3;
+  padding: 8px 0;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+}
+nav ul li a {
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+nav ul li a:hover {
+  background: #083b7a;
+}
+
+.main-layout {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+  height: calc(100vh - 180px);
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  gap: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 15px;
+  margin-top: 25%;
+  background: #0b4fa3;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.welcome {
+  width: 100%;
+  background: #e8f1fb;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.welcome img {
+  width: 450px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.welcome .welcome-text {
+  max-width: 450px;
+}
+.welcome .welcome-text h2 {
+  font-size: 2rem;
+  color: #0b4fa3;
+  margin-bottom: 10px;
+}
+.welcome .welcome-text p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+.welcome .welcome-text a {
+  display: inline-block;
+  background: #0b4fa3;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.welcome .welcome-text a:hover {
+  background: #083b7a;
+}
+
+.grid-sections {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.box {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 20px;
+}
+.box h3 {
+  color: #0b4fa3;
+  margin-bottom: 8px;
+}
+.box p {
+  color: #555;
+}
+.box a {
+  display: inline-block;
+  margin-top: 10px;
+  background: #0b4fa3;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+.box a:hover {
+  background: #083b7a;
+}
+
+.news {
+  grid-column: span 3;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 15px;
+}
+.news h2 {
+  color: #0b4fa3;
+  margin-bottom: 10px;
+}
+.news ul {
+  list-style: none;
+}
+.news ul li {
+  margin-bottom: 6px;
+  font-size: 0.9rem;
+}
+.news ul li a {
+  margin-left: 6px;
+  color: #0b4fa3;
+  font-weight: 600;
+}
+.news ul li a:hover {
+  text-decoration: underline;
+}

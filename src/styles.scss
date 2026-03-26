@@ -1,0 +1,17 @@
+// Variables
+@use "abstracts/variables";
+
+// Base
+@use "base/reset";
+@use "base/global";
+
+// Layout
+@use "layout/header";
+@use "layout/nav";
+@use "layout/layout";
+@use "layout/footer";
+
+// Components
+@use "components/welcome";
+@use "components/boxes";
+@use "components/news";

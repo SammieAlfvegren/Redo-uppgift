@@ -1,0 +1,33 @@
+
+@use "../abstracts/variables" as *;
+
+.news {
+  grid-column: span 3;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 15px;
+
+  h2 {
+    color: $blue;
+    margin-bottom: 10px;
+  }
+
+  ul {
+    list-style: none;
+
+    li {
+      margin-bottom: 6px;
+      font-size: 0.9rem;
+
+      a {
+        margin-left: 6px;
+        color: $blue;
+        font-weight: 600;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
