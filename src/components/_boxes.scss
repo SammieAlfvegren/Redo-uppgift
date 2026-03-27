@@ -25,6 +25,12 @@
   box-shadow: $shadow;
   padding: 20px;
 
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
   h3 {
     color: $blue;
     margin-bottom: 8px;
@@ -47,3 +53,4 @@
     }
   }
 }
+
