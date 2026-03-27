@@ -1,0 +1,56 @@
+@use "../abstracts/variables" as *;
+
+.grid-sections {
+  max-width: $max-width;
+  margin: 40px auto;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.boxes > * {
+  min-width: 0;
+}
+
+.box {
+  background: $light-blue;
+  border-radius: 6px;
+  box-shadow: $shadow;
+  padding: 20px;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+  h3 {
+    color: $blue;
+    margin-bottom: 8px;
+  }
+
+  p {
+    color: $text-light;
+  }
+
+  a {
+    display: inline-block;
+    margin-top: 10px;
+    background: $blue;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 4px;
+
+    &:hover {
+      background: $dark-blue;
+    }
+  }
+}
+

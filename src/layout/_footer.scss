@@ -1,0 +1,16 @@
+@use "../abstracts/variables" as *;
+
+footer {
+  margin-top: auto;
+  text-align: center;
+  padding: 20px 15px;
+  background: $blue;
+  color: #fff;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+

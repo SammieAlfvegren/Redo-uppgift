@@ -1,0 +1,56 @@
+@use "../abstracts/variables" as *;
+
+nav {
+  background: $blue;
+  box-shadow: $shadow;
+  padding: 8px 0;
+
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li a {
+      color: #fff;
+      font-size: 0.9rem;
+      padding: 4px 8px;
+      border-radius: 4px;
+
+      &:hover {
+        background: $dark-blue;
+      }
+    }
+  }
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+@media (max-width: ($mobile - 1px)) {
+  .nav {
+    display: none;
+    flex-direction: column;
+  }
+  .nav-toggle {
+    display: block;
+    cursor: pointer;
+  }
+  .nav.open {
+    display: flex;
+  }
+}

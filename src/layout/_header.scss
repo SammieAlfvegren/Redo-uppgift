@@ -1,0 +1,25 @@
+@use "../abstracts/variables" as *;
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+  padding: 20px 10px;
+  background: #ffff;
+  border-bottom: 2px solid $blue;
+
+  h1 {
+    font-size: 1.8rem;
+    color: $blue;
+  }
+
+  p {
+    font-size: 0.9rem;
+    color: $text-light;
+  }
+}
+
+

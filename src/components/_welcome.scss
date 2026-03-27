@@ -1,0 +1,49 @@
+@use "../abstracts/variables" as *;
+
+.welcome {
+  width: 100%;
+  background: $light-blue;
+  box-shadow: $shadow;
+  border-radius: 8px;
+  padding: 40px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 20px;
+
+  img {
+    width: 500px;
+    margin-left: 23px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
+  .welcome-text {
+    max-width: 450px;
+
+    h2 {
+      font-size: 2rem;
+      color: $blue;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: $text-light;
+      margin-bottom: 15px;
+    }
+
+    a {
+      display: inline-block;
+      background: $blue;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 4px;
+      font-weight: 600;
+
+      &:hover {
+        background: $dark-blue;
+      }
+    }
+  }
+}
