@@ -1,6 +1,8 @@
 # vad är det för hemsida?
 
-- Berkshire Hathaways webbplats fungerar  som en informationskanal för aktieägare och investerare.
+-företaget är ett av världens största och mest kända holdingbolag
+ 
+- webbsidan fungerar  som en informationskanal för aktieägare och investerare.
 
 - Den tillhandahåller huvudsakligen kvartals- och årsrapporter, nyheter, pressmeddelanden, brev från Warren Buffett och information om dotterbolag.
 
