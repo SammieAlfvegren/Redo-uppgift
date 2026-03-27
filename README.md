@@ -15,3 +15,5 @@
 * förbättra användarupplevelsen på både dator och mobil.
 
 * skapa en mer engagerande och välkomnande startsida.
+
+* väldigt mycket av sidan kan delas upp i kategorier istället för  att skriva samma sak om och om igen.
